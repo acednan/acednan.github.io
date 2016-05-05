@@ -9,8 +9,8 @@
 locale                   : "en-US"
 title                    : "Acednan"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Adnan H"
+description              : "My personal blog."
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 gh_repo                  :
@@ -61,10 +61,10 @@ google_ad_slot           :
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Adnan H"
   avatar           : "bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
+  bio              : "Wanderlust."
+  location         : 
   email            :
   uri              :
   bitbucket        :
@@ -73,7 +73,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : acednan
   google_plus      :
   keybase          :
   instagram        :
@@ -84,7 +84,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : acednan
   vine             :
   weibo            :
   xing             :
@@ -198,9 +198,27 @@ tags:
 #     tag: /tags/:name/
 
 
+#Collections 
+collections:
+- ruby
+
+
+
 # HTML Compression
 # - http://jch.penibelst.de/
 compress_html:
   clippings: all
   ignore:
     envs: development
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      read_time: true
+      comments: true
+      share: true
+      related: true
