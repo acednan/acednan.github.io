@@ -1,7 +1,7 @@
 ---
 title:  "Passwords"
 date:   2016-08-13 13:53:00 +0000
-categories: non_tech
+categories: non-tech
 tags: password security
 comments: true
 ---
