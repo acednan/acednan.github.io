@@ -4,6 +4,7 @@ date:   2016-05-05 12:45:00 +0000
 categories: ruby
 tags: first jekyll minimalmistakes 
 exerpt: Welcome to Acednan
+comments: false
 ---
 
 I have been planning to write a blog for a really long time now. And I always imagine myself having the perfect blog with the perfect blogging framework and the perfect theme. But, I am not a perfectionist, and yet I fall into this trap of "Analysis Paralysis". 

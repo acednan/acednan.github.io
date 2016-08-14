@@ -1,0 +1,37 @@
+---
+title:  "Passwords"
+date:   2016-08-13 13:53:00 +0000
+categories: non_tech
+tags: password security
+comments: true
+---
+![Lock](/downloads/lock.jpg "Lock")
+
+Recently, my friend's Skype account got hacked. A random link (to some shady looking website) was sent to all his contacts. <!-- more -->  Now you might say, "Well, he had a bad password" or "He isn't a techie". While the first part might be true, he sure was a techie. Luckily for him, his email address didn't have the same password as his Skype account. So, he was easily able to reset it. But, in the recent past, I have seen many people get their Skype accounts hacked. And then you need to go through your entire Skype list apologizing for the message sent by the hacker. Even to people, who you haven't even said "Hi" in a couple of years. Well, its a good way of connecting, but bad if the message was malicious and installed some spyware or virus on a computer. You won't be left with many friends I would imagine. So the fact of the matter is, good passwords are really important.
+
+
+
+
+How secure is my password?
+--------------------------
+![Secure password](/downloads/secure-pass.png "Secure password")
+
+ Passwords, the single most confusing thing if you have a different one for every site. At the same time if you have the same one for all the sites, it makes you extremely vulnerable. More so these days with the attack on "Tier 1"  websites like LinkedIn. So, is your password really safe? Most of us don't bother with long and complicated passwords, because we think that "password" as a password is really clever or maybe I add a number "pass1234" or something like that. Well according to [How Secure is my Password](https://howsecureismypassword.net/), these can be cracked almost instantly. And this becomes a bigger problem if the same password is shared across multiple sites. Say, somebody got into your LinkedIn account and you use the same password for Twitter and Facebook, then the hacker has instant access to both those accounts. (Well, you might think why would the hacker try to use the same password for multiple sites, but then that would be a naive assumption - because many people use the same password for multiple sites would be the answer). And this becomes even more dangerous when your email account has the same password as most websites rely on an ability to send you an email to reset your password. Now you say, "Well this all sounds bad, what should I do?". 
+
+How to make a secure password? 
+------------------------------
+
+Well the first step you can take is to strenghthen your passwords - use pass "phrases" instead of pass "words". Let me give you an example of how this works: Say you work at a McDonalds and you work the 9 to 5 shift. Also, you have a friend named "Mambo"(well this is a fictional example after all, so name does not need to be real). So your passphrase could be "Mamboworks9to5atMcDonaldswithme" - thats almost 30 characters. That according to the same website would take 29 Undecillion years. That is 29 followed by 36 or 66 zeroes (depending on the US or British system). That is a lot of years. So that seems to be a pretty secure password. What would make it even more secure is if you can throw in a few symbols and special characters. So if we made the same phrase "Mamboworks9to5at/\/\cDonald$withme" - where we replaced the 'M' of McDonalds with forward slash, backward slash, forward slash and backward slash (/\/\) and replaced the 's' of McDonalds with '$' (looks like an s). Plus we are already using capital letters in the form of M for Mambo and D in the McDonalds. So all in all - this seems like a good passphrase and much better than something like "password". Now most passwords don't have to be so long, but the passwords which are really important to you should be long and secure - try to make them passphrases. Another example of a passphrase could be - "MeBornin7heLeapyr84" (Me born in the leap year 1984) - that is about 19 characters and still very strong. 
+
+
+How do I remember all these passwords?
+--------------------------------------
+![Many passwords](/downloads/many-pass.jpg "Many passwords")
+
+Well, fear not my friend, there are commercial and self-hosted solutions to this problem. They are called "Password Managers". I would outline one of each in this article. Lets start with the easy one first - the commercial password manager. One of the best reviewed ones I have come across is called [LastPass](https://lastpass.com/). It comes with unlimited storage for passwords. It is free for a single device with automatic synchronisation of your passwords with the cloud. Also has automated filling of logins and forms. If you wish to sync it across all your devices, then it costs about $12/year, which is fair in my opinion. Personally, I have never used LastPass. If you wouldn't like to use this solution, because it is "commercial" or "too expensive", well there is a good solution for you. It is Firefox's own [password manager](https://support.mozilla.org/en-US/kb/password-manager-remember-delete-change-and-import). It lets you manage your passwords, automatically prompts to save your passwords and all these passwords can be managed with one "master password". And also, you can synchronize it across all your devices. It also has auto fill. And this option is completely **free**. Well, if you do like Mozilla Firefox's password manager, you should consider donating to the [Mozilla foundation](https://donate.mozilla.org)
+
+
+So, for you paranoid ones out there, who want a completely self hosted solution - well not completely self hosted, but the important parts are in the cloud so that you don't lose any data - well its called KeePass. It is a very simple, open-source password manager which runs on Windows. It has several ports includng Linux, Mac, iOS and Android. It is a little bit more complicated to setup than LastPass, but well worth the effort. And it is just a one time effort. So for the initial setup you can just install one of the many ports of KeePass. Setup a new database with a sufficiently long password (as described above) and with a key file. The key file here is very important because you need it to  open your database (and losing it would mean permanently locking yourself out). In order to keep it secure, I suggest you take a print out of the key file and store it in a secure location. This way even if you lose it, you can type it back. Now, after creating a database and securing it with a key file and a master password, you are good to go. You can add usernames and passwords for various categories (like Email, PIN, Social Networks, etc.) Now comes the interesting part. Once you have set this up, you can move your Database file to a folder inside dropbox. This will sync this file with the cloud and you can access it from all your devices. Do not share your key in this manner, as the whole purpose of the key is to add an additional layer of security. You can either share your key by manually typing it (takes some time and is error prone) or sending it via Bluetooth or USB. And voila, you can use KeePass across all your devices. Also, another trick is to have a program take an automatic backup of the Database file everyday at a fixed time to your computer (Cron and Rsync can be used for this on Linux). This helps in case your database file gets corrupted or accidentally deleted.  
+
+So, that was it from me. If you liked this article, please share it on twitter, facebook & google plus. 
+
