@@ -13,3 +13,4 @@ This is my Wanderlust list:
 + [Basteibrücke](http://www.saechsische-schweiz.de/region/highlights/bastei.html) - Germany
 + [Burg Eltz](http://burg-eltz.de/en/) - Germany
 + [Nusa Penida](https://indojunkie.com/nusa-penida-bali/) - Indonesia
++ [Cochem](http://www.cochem.de/tourismus/historisches) - Germany
